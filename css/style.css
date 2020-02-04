@@ -1,0 +1,102 @@
+.draw {
+	padding: : 20px;
+	margin-top: 0;
+}
+
+.navbar {
+		background-image: url(/img/header-back2.jpg);
+}
+
+.nav, .navbar-nav {
+	background: #eee;
+	border-radius: 4px;
+	border: 1px;
+	border-color: #000;
+}
+
+.draw .btn-danger {
+	padding: 5px;
+	margin: 0 10px 10px 0;
+}
+
+#window-type {
+	margin: 25px;
+	margin-left: 0;
+	padding: 5px;
+	border: 0 0 1px 0 solid black;
+}
+
+#win-rad {
+	display: none;
+}
+
+.windows {
+	margin: 30px;
+	margin-top: 0;
+	position: absolute; 
+	left: 600px; 
+	top: 150px;
+}
+
+.windowclass main {
+	position: absolute;
+	padding: 20px;
+	margin: 30px;
+	left: 100px;
+	top: 200px;
+}
+
+.filter-box {
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding: 10px;
+	vertical-align: middle;
+	position: absolute;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
+	width: 200px;
+	height: auto;
+	float: left;
+}
+
+.b-conf__mini-checkbox-text {
+	/*float: left;*/
+	text-shadow: 0 1px #fff;
+	font-size: 14px;
+	padding: 0 4px;
+
+}
+
+.checkbox {
+	float: left;
+}
+
+#housetype {
+	margin: 10px 0 10px 0;
+}
+
+.wrapper
+{
+	padding: 20px;
+}
+
+.btn
+{
+	display: inline-block;
+	margin-left: 5px;
+	width: 170px;
+	float: left;
+}
+
+.btn:hover h4
+{
+	color: black;
+}
+
+#price
+{
+	padding: 5px;
+	font-size: 14px;
+	margin: 10px;
+
+}

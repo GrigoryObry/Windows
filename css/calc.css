@@ -1,0 +1,698 @@
+/* Стрелки */
+/*
+.arr {
+	background: url(../images/arrows.png) 0 0 no-repeat;
+}
+*/
+.ar-1111-noise {
+	background: url("../images/arrows/ar-1111-noise.png") no-repeat 55px 0px transparent;
+}
+.ar-1111-sec {
+	background: url("../images/arrows/ar-1111-sec.png") no-repeat 10px 0px transparent;
+}
+.ar-1111-sun {
+	background: url("../images/arrows/ar-1111-sun.png") no-repeat 56px 0px transparent;
+}
+.ar-1111-warm {
+	background: url("../images/arrows/ar-1111-warm.png") no-repeat 4px 0px transparent;
+}
+.ar-1112-noise {
+	background: url("../images/arrows/ar-1112-noise.png") no-repeat 20px 0px transparent;
+}
+.ar-1112-sec {
+	background: url("../images/arrows/ar-1112-sec.png") no-repeat 15px 0px transparent;
+}
+.ar-1112-sun {
+	background: url("../images/arrows/ar-1112-sun.png") no-repeat 30px 0px transparent;
+}
+.ar-1112-warm {
+	background: url("../images/arrows/ar-1112-warm.png") no-repeat -22px 0px transparent;
+}
+.ar-1123-noise {
+	background: url("../images/arrows/ar-1123-noise.png") no-repeat 24px 0px transparent;
+}
+.ar-1123-sec {
+	background: url("../images/arrows/ar-1123-sec.png") no-repeat 5px 0px transparent;
+}
+.ar-1123-sun {
+	background: url("../images/arrows/ar-1123-sun.png") no-repeat 33px 0px transparent;
+}
+.ar-1123-warm {
+	background: url("../images/arrows/ar-1123-warm.png") no-repeat -19px 0px transparent;
+}
+.ar-1311-noise {
+	background: url("../images/arrows/ar-1311-noise.png") no-repeat 56px 0px transparent;
+}
+.ar-1311-sec {
+	background: url("../images/arrows/ar-1311-sec.png") no-repeat -50px 0px transparent;
+}
+.ar-1311-sun {
+	background: url("../images/arrows/ar-1311-sun.png") no-repeat 56px 0px transparent;
+}
+.ar-1311-warm {
+	background: url("../images/arrows/ar-1311-warm.png") no-repeat 5px 0px transparent;
+}
+.ar-1312-noise {
+	background: url("../images/arrows/ar-1312-noise.png") no-repeat 33px 0px transparent;
+}
+.ar-1312-sec {
+	background: url("../images/arrows/ar-1312-sec.png") no-repeat 5px 0px transparent;
+}
+.ar-1312-sun {
+	background: url("../images/arrows/ar-1312-sun.png") no-repeat 41px 0px transparent;
+}
+.ar-1312-warm {
+	background: url("../images/arrows/ar-1312-warm.png") no-repeat -11px 0px transparent;
+}
+.ar-1323-noise {
+	background: url("../images/arrows/ar-1323-noise.png") no-repeat 24px 0px transparent;
+}
+.ar-1323-sec {
+	background: url("../images/arrows/ar-1323-sec.png") no-repeat 11px 0px transparent;
+}
+.ar-1323-sun {
+	background: url("../images/arrows/ar-1323-sun.png") no-repeat 32px 0px transparent;
+}
+.ar-1323-warm {
+	background: url("../images/arrows/ar-1323-warm.png") no-repeat -21px 0px transparent;
+}
+.ar-1332-noise {
+	background: url("../images/arrows/ar-1332-noise.png") no-repeat 54px 0px transparent;
+}
+.ar-1332-sec {
+	background: url("../images/arrows/ar-1332-sec.png") no-repeat 4px 0px transparent;
+}
+.ar-1332-sun {
+	background: url("../images/arrows/ar-1332-sun.png") no-repeat 51px 0px transparent;
+}
+.ar-1332-warm {
+	background: url("../images/arrows/ar-1332-warm.png") no-repeat -1px 0px transparent;
+}
+.ar-2112-noise {
+	background: url("../images/arrows/ar-2112-noise.png") no-repeat 19px 0px transparent;
+}
+.ar-2112-sec {
+	background: url("../images/arrows/ar-2112-sec.png") no-repeat 2px 0px transparent;
+}
+.ar-2112-sun {
+	background: url("../images/arrows/ar-2112-sun.png") no-repeat 29px 0px transparent;
+}
+.ar-2112-warm {
+	background: url("../images/arrows/ar-2112-warm.png") no-repeat -22px 0px transparent;
+}
+.ar-2132-noise {
+	background: url("../images/arrows/ar-2132-noise.png") no-repeat 31px 0px transparent;
+}
+.ar-2132-sec {
+	background: url("../images/arrows/ar-2132-sec.png") no-repeat 17px 0px transparent;
+}
+.ar-2132-sun {
+	background: url("../images/arrows/ar-2132-sun.png") no-repeat 37px 0px transparent;
+}
+.ar-2132-warm {
+	background: url("../images/arrows/ar-2132-warm.png") no-repeat -16px 0px transparent;
+}
+.ar-2244-noise {
+	background: url("../images/arrows/ar-2244-noise.png") no-repeat 29px 0px transparent;
+}
+.ar-2244-sec {
+	background: url("../images/arrows/ar-2244-sec.png") no-repeat 20px 0px transparent;
+}
+.ar-2244-sun {
+	background: url("../images/arrows/ar-2244-sun.png") no-repeat 31px 0px transparent;
+}
+.ar-2244-warm {
+	background: url("../images/arrows/ar-2244-warm.png") no-repeat -21px 0px transparent;
+}
+.ar-2312-noise {
+	background: url("../images/arrows/ar-2312-noise.png") no-repeat 19px 0px transparent;
+}
+.ar-2312-sec {
+	background: url("../images/arrows/ar-2312-sec.png") no-repeat -16px 0px transparent;
+}
+.ar-2312-sun {
+	background: url("../images/arrows/ar-2312-sun.png") no-repeat 27px 0px transparent;
+}
+.ar-2312-warm {
+	background: url("../images/arrows/ar-2312-warm.png") no-repeat -25px 0px transparent;
+}
+.ar-2332-noise {
+	background: url("../images/arrows/ar-2332-noise.png") no-repeat 34px 0px transparent;
+}
+.ar-2332-sec {
+	background: url("../images/arrows/ar-2332-sec.png") no-repeat 13px 0px transparent;
+}
+.ar-2332-sun {
+	background: url("../images/arrows/ar-2332-sun.png") no-repeat 37px 0px transparent;
+}
+.ar-2332-warm {
+	background: url("../images/arrows/ar-2332-warm.png") no-repeat -15px 0px transparent;
+}
+.ar-3211-noise {
+	background: url("../images/arrows/ar-3211-noise.png") no-repeat 15px 0px transparent;
+}
+.ar-3211-sec {
+	background: url("../images/arrows/ar-3211-sec.png") no-repeat -31px 0px transparent;
+}
+.ar-3211-sun {
+	background: url("../images/arrows/ar-3211-sun.png") no-repeat 16px 0px transparent;
+}
+.ar-3211-warm {
+	background: url("../images/arrows/ar-3211-warm.png") no-repeat 15px 0px transparent;
+}
+.ar-3222-noise {
+	background: url("../images/arrows/ar-3222-noise.png") no-repeat 0px 0px transparent;
+}
+.ar-3222-sec {
+	background: url("../images/arrows/ar-3222-sec.png") no-repeat 0px 0px transparent;
+}
+.ar-3222-sun {
+	background: url("../images/arrows/ar-3222-sun.png") no-repeat 3px 0px transparent;
+}
+.ar-3222-warm {
+	background: url("../images/arrows/ar-3222-warm.png") no-repeat 3px 0px transparent;
+}
+.ar-3223-noise {
+	background: url("../images/arrows/ar-3223-noise.png") no-repeat 2px 0px transparent;
+}
+.ar-3223-sec {
+	background: url("../images/arrows/ar-3223-sec.png") no-repeat 0px 0px transparent;
+}
+.ar-3223-sun {
+	background: url("../images/arrows/ar-3223-sun.png") no-repeat 4px 0px transparent;
+}
+.ar-3223-warm {
+	background: url("../images/arrows/ar-3223-warm.png") no-repeat 4px 0px transparent;
+}
+.ar-3224-noise {
+	background: url("../images/arrows/ar-3224-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-3224-sec {
+	background: url("../images/arrows/ar-3224-sec.png") no-repeat 10px 0px transparent;
+}
+.ar-3224-sun {
+	background: url("../images/arrows/ar-3224-sun.png") no-repeat 10px 0px transparent;
+}
+.ar-3224-warm {
+	background: url("../images/arrows/ar-3224-warm.png") no-repeat 10px 0px transparent;
+}
+.ar-3232-noise {
+	background: url("../images/arrows/ar-3232-noise.png") no-repeat 8px 0px transparent;
+}
+.ar-3232-sec {
+	background: url("../images/arrows/ar-3232-sec.png") no-repeat 27px 0px transparent;
+}
+.ar-3232-sun {
+	background: url("../images/arrows/ar-3232-sun.png") no-repeat 10px 0px transparent;
+}
+.ar-3232-warm {
+	background: url("../images/arrows/ar-3232-warm.png") no-repeat 10px 0px transparent;
+}
+.ar-3233-noise {
+	background: url("../images/arrows/ar-3233-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-3233-sec {
+	background: url("../images/arrows/ar-3233-sec.png") no-repeat 10px 0px transparent;
+}
+.ar-3233-sun {
+	background: url("../images/arrows/ar-3233-sun.png") no-repeat 10px 0px transparent;
+}
+.ar-3233-warm {
+	background: url("../images/arrows/ar-3233-warm.png") no-repeat 10px 0px transparent;
+}
+.ar-3243-noise {
+	background: url("../images/arrows/ar-3243-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-3243-sec {
+	background: url("../images/arrows/ar-3243-sec.png") no-repeat 10px 0px transparent;
+}
+.ar-3243-sun {
+	background: url("../images/arrows/ar-3243-sun.png") no-repeat 10px 0px transparent;
+}
+.ar-3243-warm {
+	background: url("../images/arrows/ar-3243-warm.png") no-repeat 10px 0px transparent;
+}
+.ar-3244-noise {
+	background: url("../images/arrows/ar-3244-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-3244-sec {
+	background: url("../images/arrows/ar-3244-sec.png") no-repeat 47px 0px transparent;
+}
+.ar-3244-sun {
+	background: url("../images/arrows/ar-3244-sun.png") no-repeat 5px 0px transparent;
+}
+.ar-3244-warm {
+	background: url("../images/arrows/ar-3244-warm.png") no-repeat 4px 0px transparent;
+}
+.ar-3411-sun {
+	background: url("../images/arrows/ar-3411-sun.png") no-repeat 16px 0px transparent;
+}
+.ar-3411-noise {
+	background: url("../images/arrows/ar-3411-noise.png") no-repeat 15px 0px transparent;
+}
+.ar-3411-sec {
+	background: url("../images/arrows/ar-3411-sec.png") no-repeat 54px 0px transparent;
+}
+.ar-3411-warm {
+	background: url("../images/arrows/ar-3411-warm.png") no-repeat 15px 0px transparent;
+}
+.ar-3421-noise {
+	background: url("../images/arrows/ar-3421-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-3421-sec {
+	background: url("../images/arrows/ar-3421-sec.png") no-repeat -29px 0px transparent;
+}
+.ar-3421-sun {
+	background: url("../images/arrows/ar-3421-sun.png") no-repeat 17px 0px transparent;
+}
+.ar-3421-warm {
+	background: url("../images/arrows/ar-3421-warm.png") no-repeat -1px 0px transparent;
+}
+.ar-3422-noise {
+	background: url("../images/arrows/ar-3422-noise.png") no-repeat 0px 0px transparent;
+}
+.ar-3422-sec {
+	background: url("../images/arrows/ar-3422-sec.png") no-repeat 6px 0px transparent;
+}
+.ar-3422-sun {
+	background: url("../images/arrows/ar-3422-sun.png") no-repeat 0px 0px transparent;
+}
+.ar-3422-warm {
+	background: url("../images/arrows/ar-3422-warm.png") no-repeat -1px 0px transparent;
+}
+.ar-3423-noise {
+	background: url("../images/arrows/ar-3423-noise.png") no-repeat -1px 0px transparent;
+}
+.ar-3423-sec {
+	background: url("../images/arrows/ar-3423-sec.png") no-repeat 16px 0px transparent;
+}
+.ar-3423-sun {
+	background: url("../images/arrows/ar-3423-sun.png") no-repeat -1px 0px transparent;
+}
+.ar-3423-warm {
+	background: url("../images/arrows/ar-3423-warm.png") no-repeat 0px 0px transparent;
+}
+.ar-3432-noise {
+	background: url("../images/arrows/ar-3432-noise.png") no-repeat 8px 0px transparent;
+}
+.ar-3432-sec {
+	background: url("../images/arrows/ar-3432-sec.png") no-repeat 50px 0px transparent;
+}
+.ar-3432-sun {
+	background: url("../images/arrows/ar-3432-sun.png") no-repeat 8px 0px transparent;
+}
+.ar-3432-warm {
+	background: url("../images/arrows/ar-3432-warm.png") no-repeat 9px 0px transparent;
+}
+.ar-4211-noise {
+	background: url("../images/arrows/ar-4211-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-4211-sec {
+	background: url("../images/arrows/ar-4211-sec.png") no-repeat -28px 0px transparent;
+}
+.ar-4211-sun {
+	background: url("../images/arrows/ar-4211-sun.png") no-repeat 14px 0px transparent;
+}
+.ar-4211-warm {
+	background: url("../images/arrows/ar-4211-warm.png") no-repeat 14px 0px transparent;
+}
+.ar-4221-noise {
+	background: url("../images/arrows/ar-4221-noise.png") no-repeat 11px 0px transparent;
+}
+.ar-4221-sec {
+	background: url("../images/arrows/ar-4221-sec.png") no-repeat -18px 0px transparent;
+}
+.ar-4221-sun {
+	background: url("../images/arrows/ar-4221-sun.png") no-repeat 14px 0px transparent;
+}
+.ar-4221-warm {
+	background: url("../images/arrows/ar-4221-warm.png") no-repeat 14px 0px transparent;
+}
+.ar-4421-noise {
+	background: url("../images/arrows/ar-4421-noise.png") no-repeat 11px 0px transparent;
+}
+.ar-4421-sec {
+	background: url("../images/arrows/ar-4421-sec.png") no-repeat -19px 0px transparent;
+}
+.ar-4421-sun {
+	background: url("../images/arrows/ar-4421-sun.png") no-repeat 14px 0px transparent;
+}
+.ar-4421-warm {
+	background: url("../images/arrows/ar-4421-warm.png") no-repeat 13px 0px transparent;
+}
+.ar-4422-noise {
+	background: url("../images/arrows/ar-4422-noise.png") no-repeat 0px 0px transparent;
+}
+.ar-4422-sec {
+	background: url("../images/arrows/ar-4422-sec.png") no-repeat 31px 0px transparent;
+}
+.ar-4422-sun {
+	background: url("../images/arrows/ar-4422-sun.png") no-repeat 2px 0px transparent;
+}
+.ar-4422-warm {
+	background: url("../images/arrows/ar-4422-warm.png") no-repeat 1px 0px transparent;
+}
+.ar-4432-noise {
+	background: url("../images/arrows/ar-4432-noise.png") no-repeat 10px 0px transparent;
+}
+.ar-4432-sec {
+	background: url("../images/arrows/ar-4432-sec.png") no-repeat 40px 0px transparent;
+}
+.ar-4432-sun {
+	background: url("../images/arrows/ar-4432-sun.png") no-repeat 4px 0px transparent;
+}
+.ar-4432-warm {
+	background: url("../images/arrows/ar-4432-warm.png") no-repeat 4px 0px transparent;
+}
+.ar-4244-noise {
+	background: url("../images/arrows/ar-4244-noise.png") no-repeat -2px 0px transparent;
+}
+.ar-4244-sec {
+	background: url("../images/arrows/ar-4244-sec.png") no-repeat 35px 0px transparent;
+}
+.ar-4244-sun {
+	background: url("../images/arrows/ar-4244-sun.png") no-repeat -3px 0px transparent;
+}
+.ar-4244-warm {
+	background: url("../images/arrows/ar-4244-warm.png") no-repeat 14px 0px transparent;
+}
+
+
+
+/* Стёкла */
+.layer {
+	background: url(../images/sandwich-sprite.png) 0 0 no-repeat;
+}
+/* Borders*/
+.l-12-left, .l-12-right  {
+	background-position:  0 -8792px;
+	height: 304px;
+	width: 179px;
+}
+.l-14-left, .l-14-right  {
+	background-position: 0 -9110px;
+	height: 304px;
+	width: 189px;
+}
+.l-16-left, .l-16-right   {
+	background-position: 0 -9428px;
+	height: 304px;
+	width: 199px;
+}
+.l-18-left, .l-18-right {
+	background-position: 0 -9746px;
+	height: 304px;
+	width: 207px;
+}
+/*Glasses*/
+.l-4-left, .l-4-right {
+	background-position: 0 -560px;
+	height: 290px;
+	width: 139px;
+}
+.l-6-left, .l-6-right {
+	background-position: 0 -865px;
+	height: 290px;
+	width: 149px;
+}
+.l-4-Stopray-Neo-left {
+	background-position: 0 -1170px;
+	height: 290px;
+	width: 143px;
+}
+.l-4-Stopray-Neo-right {
+	background-position: 0 -1475px;
+	height: 290px;
+	width: 143px;
+}
+.l-6-Stopray-Neo-left {
+	background-position: 0 -1780px;
+	height: 290px;
+	width: 153px;
+}
+.l-6-Stopray-Neo-right {
+	background-position: 0 -2085px;
+	height: 290px;
+	width: 153px;
+}
+.l-33-2-Stopray-Neo-Stratophone-left, .l-33-2-Stratophone-Stopray-Neo-left {
+	background-position: 0 -2390px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stopray-Neo-Stratophone-right, .l-33-2-Stratophone-Stopray-Neo-right {
+	background-position: 0 -2695px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-left, .l-33-2-right {
+	background-position: 0 -3000px;
+	height: 290px;
+	width: 160px;
+}
+.l-34-4-left, .l-34-4-right {
+	background-position: 0 -3305px;
+	height: 290px;
+	width: 175px;
+}
+.l-33-2-Stopray-Neo-left {
+	background-position: 0 -3610px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stopray-Neo-right {
+	background-position: 0 -3915px;
+	height: 290px;
+	width: 164px;
+}
+.l-34-4-Stopray-Neo-left {
+	background-position: 0 -4220px;
+	height: 290px;
+	width: 179px;
+}
+.l-34-4-Stopray-Neo-right {
+	background-position: 0 -4525px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-2-Top-N-left {
+	background-position: 0 -4830px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Top-N-right {
+	background-position: 0 -5135px;
+	height: 290px;
+	width: 164px;
+}
+.l-34-4-Top-N-left {
+	background-position: 0 -5440px;
+	height: 290px;
+	width: 179px;
+}
+.l-34-4-Top-N-right {
+	background-position: 0 -5745px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-2-Stratophone-left, .l-33-2-Stratophone-right {
+	background-position: 0 -6050px;
+	height: 290px;
+	width: 160px;
+}
+.l-33-2-Stratophone-Top-N-left, .l-33-2-Top-N-Stratophone-left {
+	background-position:  0 -6355px;
+	height: 290px;
+	width: 164px;
+}
+.l-33-2-Stratophone-Top-N-right, .l-33-2-Top-N-Stratophone-right {
+	background-position: 0 -6660px;
+	height: 290px;
+	width: 164px;
+}
+.l-4-Top-N-left {
+	background-position: 0 -6965px;
+	height: 290px;
+	width: 143px;
+}
+.l-4-Top-N-right {
+	background-position: 0 -7270px;
+	height: 290px;
+	width: 143px;
+}
+.l-6-Top-N-left {
+	background-position: 0 -7575px;
+	height: 290px;
+	width: 153px;
+}
+.l-6-Top-N-right {
+	background-position: 0 -7880px;
+	height: 290px;
+	width: 153px;
+}
+.l-43-4-Stopray-Neo-left {
+	background-position: 0 -8184px;
+	height: 290px;
+	width: 179px;
+}
+.l-43-4-Stopray-Neo-right {
+	background-position: 0 -8488px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-1-left {
+	background-position: 0 -10062px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-33-1-right {
+	background-position: 0 -10062px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-44-1-left {
+	background-position: 0 -10366px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-44-1-right {
+	background-position: 0 -10366px;
+	height: 290px;
+	width: 179px;
+}
+
+.l-33-1-Top-N-left {
+	background-position: 0 -10670px;
+	height: 290px;
+	width: 179px;
+}
+.l-33-1-Top-N-right {
+	background-position: 0 -10947px;
+	height: 290px;
+	width: 179px;
+}
+.l-44-1-Top-N-left {
+	background-position: 0 -11278px;
+	height: 290px;
+	width: 179px;
+}
+.l-44-1-Top-N-right {
+	background-position: 0 -11582px;
+	height: 290px;
+	width: 179px;
+}
+
+.wndtw1 {
+	width: 300px;
+	height: 395px;
+	background: url(../img/1-1.png) 0 0 no-repeat;
+}
+.wndtw1-2 {
+	background-image: url(../img/1-2.png)
+}
+.wndtw1-3 {
+	background-image: url(../img/1-3.png)
+}
+.wndtw1-4 {
+	background-image: url(../img/1-4.png)
+}
+.wndtw1-5 {
+	background-image: url(../img/1-5.png)
+}
+.wndtw1-6 {
+	background-image: url(../img/1-6.png)
+}
+.wndtw2 {
+	width: 432px;
+	height: 395px;
+	background: url(../img/2-1.png) 0 0 no-repeat;
+}
+.wndtw2-2 {
+	background-image: url(../img/2-2.png)
+}
+.wndtw2-3 {
+	background-image: url(../img/2-3.png)
+}
+.wndtw2-4 {
+	background-image: url(../img/2-4.png)
+}
+.wndtw2-5 {
+	background-image: url(../img/2-5.png)
+}
+.wndtw2-6 {
+	background-image: url(../img/2-6.png)
+}
+.wndtw2-7 {
+	background-image: url(../img/2-7.png)
+}
+.wndtw2-8 {
+	background-image: url(../img/2-8.png)
+}
+.wndtw2-9 {
+	background-image: url(../img/2-9.png)
+}
+.wndtw3 {
+	width: 490px;
+	height: 395px;
+	background: url(../img/3-1.png) 0 0 no-repeat;
+}
+.wndtw3-2 {
+	background-image: url(../img/3-2.png)
+}
+.wndtw3-3 {
+	background-image: url(../img/3-3.png)
+}
+.wndtw3-4 {
+	background-image: url(../img/3-4.png)
+}
+.wndtw3-5 {
+	background-image: url(../img/3-5.png)
+}
+.wndtw3-6 {
+	background-image: url(../img/3-6.png)
+}
+.wndtw3-7 {
+	background-image: url(../img/3-7.png)
+}
+.wndtw4 {
+	width: 366px;
+	height: 400px;
+	background: url(../img/4-1.png) 0 0 no-repeat;
+}
+.wndtw4-1 {
+	width: 308px;
+}
+.wndtw4-2 {
+	background-image: url(../img/4-2.png)
+}
+.wndtw4-3 {
+	background-image: url(../img/4-3.png)
+}
+.wndtw4-4 {
+	background-image: url(../img/4-4.png)
+}
+.wndtw4-5 {
+	background-image: url(../img/4-5.png)
+}
+.wndtw5 {
+	width: 368px;
+	height: 394px;
+	background-image: url(../img/5-1.png)
+}
+.wndtw5-2 {
+	background-image: url(../img/5-2.png)
+}
+.wndtw5-3 {
+	background-image: url(../img/5-3.png)
+}
+.wndtw5-4 {
+	width: 419px;
+	background-image: url(../img/5-4.png)
+}
+.wndtw5-5 {
+	width: 419px;
+	background-image: url(../img/5-5.png)
+}
